@@ -1,0 +1,55 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+% Package Imports
+\usepackage{paracol}  % Two-column layout
+\usepackage{hyperref} % Clickable links
+
+% Page Setup
+\geometry{left=1.2cm,right=1.2cm,top=1.2cm,bottom=1.2cm,columnsep=1cm}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+\begin{document}
+
+% Header
+\name{Yashwanth Kumar}
+\tagline{B. Pharmacy Student | Pharmaceutical Research & Clinical Practice}
+\photoR{2.8cm}{profile} % Remove or replace with an actual photo (if desired)
+\personalinfo{
+  \email{yashwankumar02@gmail.com} \\
+  \phone{+91 7550249317} \\
+  \location{Chennai, Tamil Nadu, India} \\
+  \linkedin{\href{https://www.linkedin.com/in/yash-wan-19a5912a0}{linkedin.com/in/yash-wan}} \\
+}
+
+\makeprofile
+
+% Objective
+\section{Objective}
+Dedicated and motivated pharmacy student seeking an internship to gain hands-on experience in pharmaceutical research and clinical practice.
+
+% Education
+\section{Education}
+\cvevent{B. Pharmacy (3rd Year) — Ongoing}{Sri Ramachandra Institute of Higher Education and Research}{Chennai, Tamil Nadu}{}
+\cvevent{Higher Secondary Education}{Bakthavachalam Vidhyashram School}{Korattur, Chennai}{Completed}
+
+% Courses & Certifications
+\section{Courses & Certifications}
+\cvitem{Ethics Review of Health Research}{Principles and guidelines of ethical research practices.}
+\cvitem{Basics of Pharmaceutical Animation}{Developing proficiency in visual content creation for pharmaceutical concepts.}
+\cvitem{Natural Cosmetics Formulation (HERBOTECH 2025)}{Challenges in natural product formulation.}
+
+% Skills
+\section{Skills}
+\cvtag{Analytical Thinking} 
+\cvtag{Digital Proficiency} 
+\cvtag{Problem-Solving} 
+\cvtag{Time Management} 
+\cvtag{MS Office Suite (Word, Excel, PowerPoint)}
+
+% Languages
+\section{Languages}
+\cvitemwithcomment{English}{Fluent}{}
+\cvitemwithcomment{Tamil}{Native}{}
+\cvitemwithcomment{Hindi}{Intermediate}{}
+
+\end{document}
